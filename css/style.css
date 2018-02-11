@@ -3,6 +3,13 @@
 	width: 960px;
 }
 
+.place {
+border-color: #CCC #999 #999 #CCC;
+border: 1px solid #CCC;
+margin-bottom: 20px;
+padding: 10px;
+}
+
 body {
 font-family:'Roboto', sans-serif;
 line-height: 1.6;
