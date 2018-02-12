@@ -3,7 +3,7 @@
 	width: 960px;
 }
 
-.place {
+article {
 	background-color: #FFF;
 	border-color: #CCC #999 #999 #CCC;
 	border: 1px solid #CCC;
@@ -11,17 +11,17 @@
 	padding: 10px;
 }
 
-.place h2{
+article h2{
 	border-bottom: 1px dashed #7E9F19;
 	margin: 0;
 }
 
-.place a{
+article a{
 	color: #2C88A7;
 	font-weight: bold;
 }
 
-.place img{
+article img{
 
 	float: left;
 	margin: 10px 10px 0 0;
@@ -34,14 +34,14 @@
 	width: 660px;
 }
 
-.footer p{
+footer p{
 
 	text-align: center;
 	font-weight: bold;
 	font-size: 16px;
 }
 
-.sidenote {
+aside {
 	background-color: #FFFBE4;
 	border: 1px solid #C9BC8F;
 	padding: 10px;
@@ -49,12 +49,12 @@
 	width: 260px;
 }
 
-.sidenote h3 {
+aside h3 {
 	font-size: 14px;
 	margin-top: 0;
 	}
 
-.sidenote ol {
+aside ol {
 	font-size: 12px;
 }
 
@@ -67,12 +67,12 @@ body {
 	background-repeat: no-repeat;*/
 }
 
-h1 a{
+header h1 a{
 	color: #7E9F19;
 	text-decoration: none;
 }
 
-h1 a:hover{
+header h1 a:hover{
 	background-color: #7E9F19;
 	color: #FFF;
 }
