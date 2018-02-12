@@ -5,10 +5,10 @@
 
 .place {
 	background-color: #FFF;
-border-color: #CCC #999 #999 #CCC;
-border: 1px solid #CCC;
-margin-bottom: 20px;
-padding: 10px;
+	border-color: #CCC #999 #999 #CCC;
+	border: 1px solid #CCC;
+	margin-bottom: 20px;
+	padding: 10px;
 }
 
 .place h2{
@@ -21,10 +21,50 @@ padding: 10px;
 	font-weight: bold;
 }
 
+.place img{
+
+	float: left;
+	margin: 10px 10px 0 0;
+	border: 1px solid;
+    padding: 2px;
+}
+
+.places{
+	float: left;
+	width: 660px;
+}
+
+.footer p{
+
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.sidenote {
+	background-color: #FFFBE4;
+	border: 1px solid #C9BC8F;
+	padding: 10px;
+	float: right;
+	width: 260px;
+}
+
+.sidenote h3 {
+	font-size: 14px;
+	margin-top: 0;
+	}
+
+.sidenote ol {
+	font-size: 12px;
+}
+
 body {
 	background: #FFF1D6;
 	font-family:'Roboto', sans-serif;
 	line-height: 1.6;
+/*	background-image: url("../imagens/gradiente.png");
+	background-size: cover;
+	background-repeat: no-repeat;*/
 }
 
 h1 a{
@@ -35,4 +75,25 @@ h1 a{
 h1 a:hover{
 	background-color: #7E9F19;
 	color: #FFF;
+}
+
+/*h1 a:focus{
+	color: red;
+}
+
+h1 a:visited{
+	color:blue;
+}*/
+
+img{
+	/*border: 1px solid black;*/
+	margin-top: 10px;
+	border-radius: 3px;
+	width: 300px;
+	height: 300px;
+
+}
+
+.clear{
+	clear:both;
 }
